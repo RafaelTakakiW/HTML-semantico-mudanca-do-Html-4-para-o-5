@@ -81,4 +81,4 @@ Essa estruturação mais organizada ajuda nos termos de acessibilidade, para a m
  - [Curso DIO.ME](https://web.dio.me/track/f31d0ec6-b46a-47d6-b5ec-5dcd3766dacb)
 
 by: rafael takaki
-[![Rafael-Takaki-W-Logo-White.png](https://i.postimg.cc/sxHZGryz/Rafael-Takaki-W-Logo-White.png)](https://postimg.cc/zHWf44V2)
+[![Rafael-Takaki-W-Logo-White.png](https://i.postimg.cc/sxHZGryz/Rafael-Takaki-W-Logo-White.png)]
