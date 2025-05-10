@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Estrutura Semântica em HTML5</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: grid;
+      grid-template-areas: 
+        "header"
+        "nav"
+        "main"
+        "footer";
+      margin: 0;
+    }
+    header, nav, main, aside, section, article, figure, footer {
+      padding: 10px;
+      margin: 5px;
+      border-radius: 8px;
+    }
+    header { background-color: #ff8080; }
+    nav { background-color: #80e0a0; }
+    aside { background-color: #f9c0c0; }
+    main { background-color: #cce5ff; display: flex; }
+    footer { background-color: #c79ef0; }
+
+    .content {
+      display: flex;
+      width: 100%;
+    }
+
+    article {
+      background-color: #e0f0ff;
+      flex: 1;
+      margin-right: 10px;
+    }
+
+    figure {
+      background-color: #fff9c4;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      background-color: #ffffcc;
+      padding: 10px;
+    }
+
+    section {
+      background-color: #80d4ff;
+      padding: 10px;
+    }
+
+    aside {
+      width: 200px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Cabeçalho do Site</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Início</a></li>
+      <li><a href="#">Sobre</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+  </nav>
+
+  <div class="content">
+    <aside>
+      <p>Conteúdo lateral (menu, links, etc.)</p>
+    </aside>
+
+    <main>
+      <article>
+        <figure>
+
+            <img src="car-medium.jpg" width="500px" alt="BMW_Car">
+            <figcaption>BMW M3 Competition</figcaption>
+        </figure>
+
+        <p>Um ícone esportivo de elite com design poderoso: o BMW M3 Competition oferece potência de 510 cv graças ao seu motor a gasolina de 6 cilindros em linha M TwinPower Turbo de alto desempenho. O novo BMW M3 Competition garante a máxima dinâmica de condução, tanto na pista de corrida como na direção do dia a dia.</p>
+
+        <section>
+          <h2>Seção complementar</h2>
+          <p>Mais detalhes sobre o artigo.</p>
+        </section>
+      </article>
+    </main>
+  </div>
+
+  <footer>
+    <p>Veja mais em <a href="https://www.dio.me">Dio.me</a></p>
+  </footer>
+
+</body>
+</html>
